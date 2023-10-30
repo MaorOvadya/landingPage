@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
-    <title>FlyTogether</title>
+    <title>Life Airline</title>
   </head>
   <body>
     <header>
@@ -15,6 +15,14 @@
         <div class="logo-sub">
           <img src="assets/images/logo/life-airlines-high-resolution-logo-white-transparent.png" alt="">
         </div>
+        <div class="mobile-gamburger-sub">
+          <ul class="hamburger-navigation-link-sub">
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+          </ul>
+        </div>
+
         <ul class="navigation-link-sub">
           <li><a href="#">menu</a></li>
           <li><a href="#">deals</a></li>
@@ -33,16 +41,49 @@
           src="/assets/images/main/david-emrich-odII8BzuWU8-unsplash.jpg"
           alt="david-emrich-beach" />
 
-          <!-- <div class="search-container">
+          <div class="search-container">
             <div class="search-container-sub">
-              <div class="flight-sub">
-                <p><i class="fa-solid fa-plane"></i>Flights</p>
+              <div class="menu-booking-sub">
+                <div class="flight-sub">
+                  <p class="active"><i class="fa-solid fa-plane"></i>flights</p>
+                </div>
+                <div class="hotel-sub">
+                  <p><i class="fa-solid fa-hotel"></i>hotels</p>
+                </div>
+                <div class="car-sub">
+                  <p><i class="fa-solid fa-car"></i></i>car rental</p>
+                </div>
+                <div class="booking-sub">
+                  <p>MyBooking</p>
+                </div>
               </div>
-              <div class="booking-sub">
-                <p>MyBooking</p>
+
+            </div>
+            <div class="search-input-sub">
+              <div class="airport-sub">
+                <label class="label" for="search">search airport</label>
+                <input class="input" type="text" name="search" id="search" placeholder="YVR">
+              </div>
+              <div class="date-departure-sub">
+                  <label class="label" for="departure">departure</label>
+                  <input class="input-one" name="departure" id="departure" type="date" >
+              </div>
+              <div class="date-return-sub">
+                  <label class="label" for="return">return</label>
+                  <input class="input-two" name="return" id="return" type="date">
+              </div>
+              <div class="date-return-sub">
+                  <label class="label" for="return">return</label>
+                  <select class="input-two">
+                    <option value="1">1 guest</option>
+                    <option value="2">2 guests</option>
+                  </select>
               </div>
             </div>
-          </div> -->
+            <div class="search-btn-sub">
+              <button class="search-btn">search</button>
+            </div>
+          </div>
       </div>
       
       <!-- DEALS SECTION -->
