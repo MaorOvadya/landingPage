@@ -186,8 +186,8 @@
   body main .image-container .search-container .search-input-sub .date-return-sub .input-one,
   body main .image-container .search-container .search-input-sub .date-return-sub .input-two {
     padding-right: 60px;
-    padding-top: 12px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 8px;
     color: #53687e;
     text-align: center;
   }
@@ -895,8 +895,8 @@
   body main .image-container .search-container .search-input-sub .date-return-sub .input-one,
   body main .image-container .search-container .search-input-sub .date-return-sub .input-two {
     padding-right: 60px;
-    padding-top: 12px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 8px;
     color: #53687e;
     text-align: center;
   }
