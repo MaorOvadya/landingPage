@@ -75,6 +75,7 @@
     cursor: pointer;
     display: inherit;
     text-transform: capitalize;
+    margin-right: 170px;
   }
   body header .navigation-container .navigation-link-sub li {
     margin: 0 10px;
@@ -112,13 +113,13 @@
     flex-wrap: wrap;
     z-index: 2;
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: 200px;
     background: #001524;
     color: white;
     width: 75%;
     margin: 0 auto;
-    height: 58%;
+    height: 50%;
     border-radius: 10px;
     text-transform: capitalize;
   }
@@ -490,7 +491,8 @@
     text-align: left;
   }
   body footer .footer-container {
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -724,21 +726,21 @@
   .contact-section .title-sub,
   .deals-section .title-sub {
     color: #001524;
-    font-size: 30px;
+    font-size: 20px;
     text-transform: capitalize;
     text-align: center;
   }
   .explore-section .title-sub p,
   .contact-section .title-sub p,
   .deals-section .title-sub p {
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 20px;
     padding-bottom: 10px;
   }
   .explore-section .sub-title p,
   .contact-section .sub-title p,
   .deals-section .sub-title p {
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px 0;
   }
   .explore-section .explore-deals-sub,
@@ -882,7 +884,7 @@
   body main .image-container .search-container .search-input-sub .date-departure-sub .input,
   body main .image-container .search-container .search-input-sub .date-return-sub .input {
     text-align: left;
-    padding-right: 6rem;
+    padding-right: 3rem;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -908,7 +910,7 @@
   body main .image-container .search-container .search-container-sub {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 20px 0;
     gap: 10px;
   }
   body main .image-container .search-container .search-container-sub .menu-booking-sub {
@@ -922,7 +924,7 @@
     font-size: 10px;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
   body main .image-container .search-container .search-container-sub .menu-booking-sub .flight-sub p i,
   body main .image-container .search-container .search-container-sub .menu-booking-sub .hotel-sub p i,
@@ -1199,7 +1201,8 @@
     text-align: center;
   }
   body footer .footer-container {
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -1334,7 +1337,7 @@
   body footer .footer-container .hours-operating .terms-policy-sub .social-media,
   body footer .footer-container .hours-operating .hours-operating-sub .social-media {
     font-size: 18px;
-    padding: 10px;
+    padding-top: 10px;
   }
   body footer .footer-container .connect .connect-sub .social-media .social-media-sub,
   body footer .footer-container .connect .connect-about .social-media .social-media-sub,
@@ -1424,7 +1427,7 @@
   body footer .copy-right p {
     color: white;
     text-transform: capitalize;
-    padding: 10px;
+    padding: 10px 0;
     font-size: 16px;
   }
 }
