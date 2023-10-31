@@ -302,7 +302,6 @@
               }
             }
             img {
-              // position: relative;
               object-fit: contain;
               width: 100%;
               height: 200px;
@@ -592,7 +591,7 @@
     }
     .sub-title {
       p {
-        font-size: 16px;
+        font-size: 18px;
         padding: 10px 0;
       }
     }
@@ -671,8 +670,9 @@
     // MAIN SECTION
     main {
       .image-container {
+        position: relative;
         width: 100vw;
-        height: 90vh;
+        height: 80vh;
         img {
           z-index: 1;
           position: relative;
@@ -680,15 +680,111 @@
           height: inherit;
           image-rendering: auto;
         }
-        span {
+        .search-container {
+          display: inherit;
+          flex-wrap: wrap;
           z-index: 2;
           position: absolute;
-          top: 0;
+          top: 120px;
           left: 0;
-          right: 0;
-          bottom: 0;
-          width: inherit;
-          height: inherit;
+          background: #001524;
+          color: white;
+          width: 100%;
+          margin: 0 auto;
+          height: fit-content;
+          border-radius: 10px;
+          text-transform: capitalize;
+          .search-btn-sub {
+            position: relative;
+            text-align: center;
+            padding: 20px 0;
+            .search-btn {
+              margin-top: 20px;
+              padding: 10px 30px;
+              border-radius: 5px;
+              border: 0.5px solid #001524;
+              width: 50%;
+              text-transform: capitalize;
+              background-color: #78c091;
+              color: white;
+              font-size: 14px;
+              font-weight: 600;
+              cursor: pointer;
+            }
+            .search-btn:hover {
+              background-color: rgba(120, 192, 145, 0.849);
+            }
+          }
+          .search-input-sub {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0 20px;
+            .airport-sub,
+            .date-departure-sub,
+            .date-return-sub {
+              position: relative;
+              display: inherit;
+              flex-direction: column;
+              letter-spacing: 1px;
+              margin-left: 10px;
+              .label {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 12px;
+              }
+              .input-date {
+                padding: 5px 10px;
+              }
+              .input {
+                text-align: left;
+                padding-right: 6rem;
+                padding-top: 10px;
+                padding-bottom: 10px;
+              }
+              .input-one,
+              .input-two {
+                padding-right: 60px;
+                padding-top: 10px;
+                padding-bottom: 8px;
+                color: #53687e;
+                text-align: center;
+              }
+              .input::placeholder {
+                text-align: left;
+                padding: 0 5px;
+                color: #53687e;
+              }
+            }
+          }
+          .search-container-sub {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            gap: 10px;
+            .menu-booking-sub {
+              gap: 20px;
+              display: flex;
+              .flight-sub,
+              .hotel-sub,
+              .car-sub,
+              .booking-sub {
+                p {
+                  font-size: 10px;
+                  border: 1px solid white;
+                  border-radius: 10px;
+                  padding: 10px 20px;
+                  i {
+                    margin: 0 5px;
+                  }
+                }
+                .active {
+                  color: #78c091;
+                }
+              }
+            }
+          }
         }
       }
       // END MAIN SECTION
@@ -712,6 +808,7 @@
           justify-items: center;
           .deals-container-sub {
             background-color: #001524;
+            width: 300px;
             padding-top: 5px;
             .deals-way-sub {
               font-size: 10px;
@@ -735,6 +832,7 @@
             }
             .deals-container-footer-sub,
             .deals-container-header-sub {
+              position: relative;
               display: flex;
               flex-direction: row;
               justify-content: space-between;
@@ -742,7 +840,6 @@
               .deals-date-sub,
               .deals-destination-sub {
                 font-size: 12px;
-                text-align: left;
                 padding-left: 10px;
                 padding-top: 5px;
                 padding-bottom: 5px;
@@ -770,11 +867,9 @@
                 color: #db5461;
               }
             }
-
             img {
-              image-rendering: auto;
-              object-fit: cover;
-              width: fit-content;
+              object-fit: contain;
+              width: 100%;
               height: 200px;
             }
           }
@@ -790,6 +885,7 @@
         p {
           color: #001524;
           text-align: center;
+          font-size: 38px;
           text-transform: capitalize;
         }
         .explore-image-sub {
@@ -869,8 +965,7 @@
             flex-direction: row;
             justify-content: space-evenly;
             flex-wrap: wrap;
-            padding: 10px 0;
-            gap: 20px;
+            padding: 30px 0;
             .location-sub,
             .mail-sub,
             .discount-sub {
@@ -898,7 +993,7 @@
             padding: 10px 30px;
             border-radius: 5px;
             border: 0.5px solid #001524;
-            width: 50%;
+            width: 80%;
             text-transform: capitalize;
             background-color: #78c091;
             color: white;
@@ -913,7 +1008,7 @@
             padding-top: 30px;
             padding-bottom: 60px;
             background-color: #001524;
-            margin: 0 20px;
+            margin: 0 50px;
             height: fit-content;
             text-transform: capitalize;
             border-radius: 10px;
@@ -932,6 +1027,7 @@
             .form-text {
               padding-top: 30px;
               padding-bottom: 20px;
+
               text-transform: capitalize;
               font-size: 20px;
               letter-spacing: 2px;
@@ -939,7 +1035,7 @@
             }
             .form-email-sub {
               input {
-                width: 50%;
+                width: 80%;
                 height: 35px;
                 padding: 0 5px;
                 border-radius: 5px;
@@ -955,9 +1051,8 @@
       background-color: #001524;
       width: 100%;
       height: fit-content;
-      text-align: left;
+      text-align: center;
       .footer-container {
-        text-align: center;
         padding: 80px;
         display: flex;
         flex-wrap: wrap;
@@ -970,6 +1065,7 @@
         .hours-operating {
           display: inherit;
           flex-direction: column;
+
           p {
             color: white;
             font-size: 28px;
@@ -994,31 +1090,34 @@
                 font-size: 18px;
                 text-decoration: none;
               }
+              a:hover {
+                color: #78c091;
+              }
             }
             .social-media {
-              text-align: center;
               font-size: 18px;
-              padding-top: 30px;
-
+              padding: 10px;
               .social-media-sub {
                 position: relative;
                 display: flex;
-                justify-content: center;
-                justify-items: center;
                 flex-direction: column;
+                // flex-wrap: wrap;
                 p {
                   padding: 20px 0;
                 }
               }
               a {
-                width: 70px;
-                margin: 10px auto;
+                display: flex;
+                text-decoration: none;
+                width: 50px;
+                height: 50px;
                 color: white;
-                padding: 20px 0;
+                margin: 5px auto;
                 background-color: #78c091;
                 border-radius: 100%;
                 i {
-                  font-size: 20px;
+                  font-size: 24px;
+                  padding: 13px 13px;
                 }
               }
             }

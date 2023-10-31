@@ -738,7 +738,7 @@
   .explore-section .sub-title p,
   .contact-section .sub-title p,
   .deals-section .sub-title p {
-    font-size: 16px;
+    font-size: 18px;
     padding: 10px 0;
   }
   .explore-section .explore-deals-sub,
@@ -803,8 +803,9 @@
     display: none;
   }
   body main .image-container {
+    position: relative;
     width: 100vw;
-    height: 90vh;
+    height: 80vh;
   }
   body main .image-container img {
     z-index: 1;
@@ -813,15 +814,127 @@
     height: inherit;
     image-rendering: auto;
   }
-  body main .image-container span {
+  body main .image-container .search-container {
+    display: inherit;
+    flex-wrap: wrap;
     z-index: 2;
     position: absolute;
-    top: 0;
+    top: 120px;
     left: 0;
-    right: 0;
-    bottom: 0;
-    width: inherit;
-    height: inherit;
+    background: #001524;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    border-radius: 10px;
+    text-transform: capitalize;
+  }
+  body main .image-container .search-container .search-btn-sub {
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+  }
+  body main .image-container .search-container .search-btn-sub .search-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0.5px solid #001524;
+    width: 50%;
+    text-transform: capitalize;
+    background-color: #78c091;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  body main .image-container .search-container .search-btn-sub .search-btn:hover {
+    background-color: rgba(120, 192, 145, 0.849);
+  }
+  body main .image-container .search-container .search-input-sub {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  body main .image-container .search-container .search-input-sub .airport-sub,
+  body main .image-container .search-container .search-input-sub .date-departure-sub,
+  body main .image-container .search-container .search-input-sub .date-return-sub {
+    position: relative;
+    display: inherit;
+    flex-direction: column;
+    letter-spacing: 1px;
+    margin-left: 10px;
+  }
+  body main .image-container .search-container .search-input-sub .airport-sub .label,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .label,
+  body main .image-container .search-container .search-input-sub .date-return-sub .label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+  body main .image-container .search-container .search-input-sub .airport-sub .input-date,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .input-date,
+  body main .image-container .search-container .search-input-sub .date-return-sub .input-date {
+    padding: 5px 10px;
+  }
+  body main .image-container .search-container .search-input-sub .airport-sub .input,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .input,
+  body main .image-container .search-container .search-input-sub .date-return-sub .input {
+    text-align: left;
+    padding-right: 6rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  body main .image-container .search-container .search-input-sub .airport-sub .input-one,
+  body main .image-container .search-container .search-input-sub .airport-sub .input-two,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .input-one,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .input-two,
+  body main .image-container .search-container .search-input-sub .date-return-sub .input-one,
+  body main .image-container .search-container .search-input-sub .date-return-sub .input-two {
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    color: #53687e;
+    text-align: center;
+  }
+  body main .image-container .search-container .search-input-sub .airport-sub .input::placeholder,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .input::placeholder,
+  body main .image-container .search-container .search-input-sub .date-return-sub .input::placeholder {
+    text-align: left;
+    padding: 0 5px;
+    color: #53687e;
+  }
+  body main .image-container .search-container .search-container-sub {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+  }
+  body main .image-container .search-container .search-container-sub .menu-booking-sub {
+    gap: 20px;
+    display: flex;
+  }
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .flight-sub p,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .hotel-sub p,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .car-sub p,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .booking-sub p {
+    font-size: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .flight-sub p i,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .hotel-sub p i,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .car-sub p i,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .booking-sub p i {
+    margin: 0 5px;
+  }
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .flight-sub .active,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .hotel-sub .active,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .car-sub .active,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .booking-sub .active {
+    color: #78c091;
   }
   body main .deals-section {
     padding: 30px 0;
@@ -843,6 +956,7 @@
   }
   body main .deals-section .explore-deals-sub .deals-container-sub {
     background-color: #001524;
+    width: 300px;
     padding-top: 5px;
   }
   body main .deals-section .explore-deals-sub .deals-container-sub .deals-way-sub {
@@ -866,6 +980,7 @@
   }
   body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub,
   body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -876,7 +991,6 @@
   body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-date-sub,
   body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-destination-sub {
     font-size: 12px;
-    text-align: left;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -909,9 +1023,8 @@
     color: #db5461;
   }
   body main .deals-section .explore-deals-sub .deals-container-sub img {
-    image-rendering: auto;
-    object-fit: cover;
-    width: fit-content;
+    object-fit: contain;
+    width: 100%;
     height: 200px;
   }
   body main .explore-section {
@@ -921,6 +1034,7 @@
   body main .explore-section p {
     color: #001524;
     text-align: center;
+    font-size: 38px;
     text-transform: capitalize;
   }
   body main .explore-section .explore-image-sub {
@@ -994,8 +1108,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 10px 0;
-    gap: 20px;
+    padding: 30px 0;
   }
   body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub,
   body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub,
@@ -1033,7 +1146,7 @@
     padding: 10px 30px;
     border-radius: 5px;
     border: 0.5px solid #001524;
-    width: 50%;
+    width: 80%;
     text-transform: capitalize;
     background-color: #78c091;
     color: white;
@@ -1048,7 +1161,7 @@
     padding-top: 30px;
     padding-bottom: 60px;
     background-color: #001524;
-    margin: 0 20px;
+    margin: 0 50px;
     height: fit-content;
     text-transform: capitalize;
     border-radius: 10px;
@@ -1073,7 +1186,7 @@
     color: white;
   }
   body main .contact-section .newsletter-container-sub .form-sub .form-email-sub input {
-    width: 50%;
+    width: 80%;
     height: 35px;
     padding: 0 5px;
     border-radius: 5px;
@@ -1083,10 +1196,9 @@
     background-color: #001524;
     width: 100%;
     height: fit-content;
-    text-align: left;
+    text-align: center;
   }
   body footer .footer-container {
-    text-align: center;
     padding: 80px;
     display: flex;
     flex-wrap: wrap;
@@ -1187,6 +1299,24 @@
     font-size: 18px;
     text-decoration: none;
   }
+  body footer .footer-container .connect .connect-sub li a:hover,
+  body footer .footer-container .connect .connect-about li a:hover,
+  body footer .footer-container .connect .terms-policy-sub li a:hover,
+  body footer .footer-container .connect .hours-operating-sub li a:hover,
+  body footer .footer-container .about .connect-sub li a:hover,
+  body footer .footer-container .about .connect-about li a:hover,
+  body footer .footer-container .about .terms-policy-sub li a:hover,
+  body footer .footer-container .about .hours-operating-sub li a:hover,
+  body footer .footer-container .terms-policy .connect-sub li a:hover,
+  body footer .footer-container .terms-policy .connect-about li a:hover,
+  body footer .footer-container .terms-policy .terms-policy-sub li a:hover,
+  body footer .footer-container .terms-policy .hours-operating-sub li a:hover,
+  body footer .footer-container .hours-operating .connect-sub li a:hover,
+  body footer .footer-container .hours-operating .connect-about li a:hover,
+  body footer .footer-container .hours-operating .terms-policy-sub li a:hover,
+  body footer .footer-container .hours-operating .hours-operating-sub li a:hover {
+    color: #78c091;
+  }
   body footer .footer-container .connect .connect-sub .social-media,
   body footer .footer-container .connect .connect-about .social-media,
   body footer .footer-container .connect .terms-policy-sub .social-media,
@@ -1203,9 +1333,8 @@
   body footer .footer-container .hours-operating .connect-about .social-media,
   body footer .footer-container .hours-operating .terms-policy-sub .social-media,
   body footer .footer-container .hours-operating .hours-operating-sub .social-media {
-    text-align: center;
     font-size: 18px;
-    padding-top: 30px;
+    padding: 10px;
   }
   body footer .footer-container .connect .connect-sub .social-media .social-media-sub,
   body footer .footer-container .connect .connect-about .social-media .social-media-sub,
@@ -1225,8 +1354,6 @@
   body footer .footer-container .hours-operating .hours-operating-sub .social-media .social-media-sub {
     position: relative;
     display: flex;
-    justify-content: center;
-    justify-items: center;
     flex-direction: column;
   }
   body footer .footer-container .connect .connect-sub .social-media .social-media-sub p,
@@ -1263,10 +1390,12 @@
   body footer .footer-container .hours-operating .connect-about .social-media a,
   body footer .footer-container .hours-operating .terms-policy-sub .social-media a,
   body footer .footer-container .hours-operating .hours-operating-sub .social-media a {
-    width: 70px;
-    margin: 10px auto;
+    display: flex;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
     color: white;
-    padding: 20px 0;
+    margin: 5px auto;
     background-color: #78c091;
     border-radius: 100%;
   }
@@ -1286,7 +1415,8 @@
   body footer .footer-container .hours-operating .connect-about .social-media a i,
   body footer .footer-container .hours-operating .terms-policy-sub .social-media a i,
   body footer .footer-container .hours-operating .hours-operating-sub .social-media a i {
-    font-size: 20px;
+    font-size: 24px;
+    padding: 13px 13px;
   }
   body footer .copy-right {
     text-align: center;
