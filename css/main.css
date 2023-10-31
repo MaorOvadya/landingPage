@@ -490,7 +490,7 @@
     text-align: left;
   }
   body footer .footer-container {
-    padding: 80px;
+    padding: 80px 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -624,7 +624,7 @@
   body footer .footer-container .hours-operating .connect-about .social-media,
   body footer .footer-container .hours-operating .terms-policy-sub .social-media,
   body footer .footer-container .hours-operating .hours-operating-sub .social-media {
-    text-align: left;
+    text-align: center;
     font-size: 18px;
     padding: 10px;
   }
@@ -665,7 +665,7 @@
   body footer .footer-container .hours-operating .connect-about .social-media .social-media-sub p,
   body footer .footer-container .hours-operating .terms-policy-sub .social-media .social-media-sub p,
   body footer .footer-container .hours-operating .hours-operating-sub .social-media .social-media-sub p {
-    padding: 20px;
+    padding: 20px 0;
   }
   body footer .footer-container .connect .connect-sub .social-media a,
   body footer .footer-container .connect .connect-about .social-media a,
