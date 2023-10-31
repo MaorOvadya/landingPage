@@ -247,6 +247,7 @@
   }
   body main .deals-section .explore-deals-sub .deals-container-sub {
     background-color: #001524;
+    width: fit-content;
     padding-top: 5px;
   }
   body main .deals-section .explore-deals-sub .deals-container-sub .deals-way-sub {
@@ -281,7 +282,6 @@
   body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-date-sub,
   body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-destination-sub {
     font-size: 12px;
-    text-align: left;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
