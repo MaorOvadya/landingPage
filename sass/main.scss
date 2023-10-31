@@ -302,9 +302,9 @@
               }
             }
             img {
-              position: relative;
+              // position: relative;
               object-fit: contain;
-              width: fit-content;
+              width: 100%;
               height: 200px;
             }
           }
