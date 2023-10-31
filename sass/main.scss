@@ -300,7 +300,6 @@
                 color: #db5461;
               }
             }
-
             img {
               image-rendering: auto;
               object-fit: fill;
@@ -771,12 +770,12 @@
               }
             }
 
-            // img {
-            //   image-rendering: auto;
-            //   object-fit: cover;
-            //   width: fit-content;
-            //   height: 200px;
-            // }
+            img {
+              image-rendering: auto;
+              object-fit: cover;
+              width: fit-content;
+              height: 200px;
+            }
           }
         }
       }
