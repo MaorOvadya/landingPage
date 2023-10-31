@@ -315,7 +315,7 @@
   }
   body main .deals-section .explore-deals-sub .deals-container-sub img {
     position: relative;
-    object-fit: fill;
+    object-fit: contain;
     width: fit-content;
     height: 200px;
   }

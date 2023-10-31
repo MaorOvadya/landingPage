@@ -303,7 +303,7 @@
             }
             img {
               position: relative;
-              object-fit: fill;
+              object-fit: contain;
               width: fit-content;
               height: 200px;
             }
