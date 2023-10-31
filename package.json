@@ -6,7 +6,7 @@
   "scripts": {
     "sass": "sass sass/main.scss css/main.css -w",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "index.html"
+    "build": "css && index.html build"
   },
   "keywords": [],
   "author": "",
