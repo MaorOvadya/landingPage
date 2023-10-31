@@ -575,7 +575,7 @@
 
 // MOBILE VIEW
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .explore-section,
   .contact-section,
   .deals-section {
@@ -771,12 +771,12 @@
               }
             }
 
-            img {
-              image-rendering: auto;
-              object-fit: fill;
-              width: fit-content;
-              height: 200px;
-            }
+            // img {
+            //   image-rendering: auto;
+            //   object-fit: cover;
+            //   width: fit-content;
+            //   height: 200px;
+            // }
           }
         }
       }
