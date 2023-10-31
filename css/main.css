@@ -591,63 +591,27 @@
     text-decoration: underline;
     cursor: pointer;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-booking-sub:hover,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-booking-sub:hover {
+  /* body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-booking-sub:hover,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-booking-sub:hover {
     color: #db5461;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-price-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-price-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-price-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-price-sub {
     text-decoration: none;
     font-size: 20px;
     color: #78c091;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-destination-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-destination-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-destination-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-destination-sub {
     font-size: 12px;
     color: #db5461;
-  }
-  /* body main .deals-section .explore-deals-sub .deals-container-sub img {
+  } */
+  body main .deals-section .explore-deals-sub .deals-container-sub img {
     image-rendering: auto;
     object-fit: fill;
     width: fit-content;
     height: 200px;
-  } */
+  }
   body main .explore-section {
     padding: 30px 0;
     background-color: white;
