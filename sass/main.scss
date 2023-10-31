@@ -265,6 +265,7 @@
             }
             .deals-container-footer-sub,
             .deals-container-header-sub {
+              position: relative;
               display: flex;
               flex-direction: row;
               justify-content: space-between;
@@ -301,8 +302,9 @@
               }
             }
             img {
+              position: relative;
               image-rendering: auto;
-              object-fit: fill;
+              object-fit: contain;
               width: 100%;
               height: 200px;
             }

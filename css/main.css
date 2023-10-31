@@ -140,12 +140,7 @@
     font-weight: 600;
     cursor: pointer;
   }
-  body
-    main
-    .image-container
-    .search-container
-    .search-btn-sub
-    .search-btn:hover {
+  body main .image-container .search-container .search-btn-sub .search-btn:hover {
     background-color: rgba(120, 192, 145, 0.849);
   }
   body main .image-container .search-container .search-input-sub {
@@ -156,166 +151,48 @@
     padding: 0 20px;
   }
   body main .image-container .search-container .search-input-sub .airport-sub,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-departure-sub,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-return-sub {
+  body main .image-container .search-container .search-input-sub .date-departure-sub,
+  body main .image-container .search-container .search-input-sub .date-return-sub {
     position: relative;
     display: inherit;
     flex-direction: column;
     letter-spacing: 1px;
     margin-left: 10px;
   }
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .airport-sub
-    .label,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-departure-sub
-    .label,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-return-sub
-    .label {
+  body main .image-container .search-container .search-input-sub .airport-sub .label,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .label,
+  body main .image-container .search-container .search-input-sub .date-return-sub .label {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .airport-sub
-    .input-date,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-departure-sub
-    .input-date,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-return-sub
-    .input-date {
+  body main .image-container .search-container .search-input-sub .airport-sub .input-date,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .input-date,
+  body main .image-container .search-container .search-input-sub .date-return-sub .input-date {
     padding: 5px 10px;
   }
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .airport-sub
-    .input,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-departure-sub
-    .input,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-return-sub
-    .input {
+  body main .image-container .search-container .search-input-sub .airport-sub .input,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .input,
+  body main .image-container .search-container .search-input-sub .date-return-sub .input {
     text-align: left;
     padding-right: 6rem;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .airport-sub
-    .input-one,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .airport-sub
-    .input-two,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-departure-sub
-    .input-one,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-departure-sub
-    .input-two,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-return-sub
-    .input-one,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-return-sub
-    .input-two {
+  body main .image-container .search-container .search-input-sub .airport-sub .input-one,
+  body main .image-container .search-container .search-input-sub .airport-sub .input-two,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .input-one,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .input-two,
+  body main .image-container .search-container .search-input-sub .date-return-sub .input-one,
+  body main .image-container .search-container .search-input-sub .date-return-sub .input-two {
     padding-right: 60px;
     padding-top: 10px;
     padding-bottom: 8px;
     color: #53687e;
     text-align: center;
   }
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .airport-sub
-    .input::placeholder,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-departure-sub
-    .input::placeholder,
-  body
-    main
-    .image-container
-    .search-container
-    .search-input-sub
-    .date-return-sub
-    .input::placeholder {
+  body main .image-container .search-container .search-input-sub .airport-sub .input::placeholder,
+  body main .image-container .search-container .search-input-sub .date-departure-sub .input::placeholder,
+  body main .image-container .search-container .search-input-sub .date-return-sub .input::placeholder {
     text-align: left;
     padding: 0 5px;
     color: #53687e;
@@ -326,121 +203,28 @@
     padding: 20px;
     gap: 10px;
   }
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub {
+  body main .image-container .search-container .search-container-sub .menu-booking-sub {
     gap: 20px;
     display: flex;
   }
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .flight-sub
-    p,
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .hotel-sub
-    p,
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .car-sub
-    p,
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .booking-sub
-    p {
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .flight-sub p,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .hotel-sub p,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .car-sub p,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .booking-sub p {
     border: 1px solid white;
     border-radius: 10px;
     padding: 10px 20px;
   }
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .flight-sub
-    p
-    i,
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .hotel-sub
-    p
-    i,
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .car-sub
-    p
-    i,
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .booking-sub
-    p
-    i {
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .flight-sub p i,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .hotel-sub p i,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .car-sub p i,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .booking-sub p i {
     margin: 0 5px;
   }
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .flight-sub
-    .active,
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .hotel-sub
-    .active,
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .car-sub
-    .active,
-  body
-    main
-    .image-container
-    .search-container
-    .search-container-sub
-    .menu-booking-sub
-    .booking-sub
-    .active {
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .flight-sub .active,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .hotel-sub .active,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .car-sub .active,
+  body main .image-container .search-container .search-container-sub .menu-booking-sub .booking-sub .active {
     color: #78c091;
   }
   body main .deals-section {
@@ -465,12 +249,7 @@
     background-color: #001524;
     padding-top: 5px;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-way-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-way-sub {
     font-size: 10px;
     padding-left: 10px;
     text-align: left;
@@ -478,111 +257,39 @@
   body main .deals-section .explore-deals-sub .deals-container-sub .text-sub {
     font-size: 18px;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-destination-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-price-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-destination-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-price-sub {
     font-size: 12px;
     text-align: left;
     padding-bottom: 10px;
     padding-top: 5px;
     padding-left: 5px;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-price-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-price-sub {
     font-size: 28px;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     justify-items: center;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-date-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-destination-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-date-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-destination-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-date-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-destination-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-date-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-destination-sub {
     font-size: 12px;
     text-align: left;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-booking-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-price-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-booking-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-price-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-booking-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-price-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-booking-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-price-sub {
     font-size: 14px;
     text-align: right;
     padding-right: 10px;
@@ -591,61 +298,26 @@
     text-decoration: underline;
     cursor: pointer;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-booking-sub:hover,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-booking-sub:hover {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-booking-sub:hover,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-booking-sub:hover {
     color: #db5461;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-price-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-price-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-price-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-price-sub {
     text-decoration: none;
     font-size: 20px;
     color: #78c091;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-destination-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-destination-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-destination-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-destination-sub {
     font-size: 12px;
     color: #db5461;
   }
   body main .deals-section .explore-deals-sub .deals-container-sub img {
+    position: relative;
     image-rendering: auto;
-    object-fit: fill;
-    width:100%;
+    object-fit: contain;
+    width: 100%;
     height: 200px;
   }
   body main .explore-section {
@@ -731,137 +403,32 @@
     flex-wrap: wrap;
     padding: 30px 0;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub {
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub {
     display: inherit;
     flex-direction: column;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub
-    .fa-location-dot,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub
-    .fa-envelope,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub
-    .fa-tag,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub
-    .fa-location-dot,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub
-    .fa-envelope,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub
-    .fa-tag,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub
-    .fa-location-dot,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub
-    .fa-envelope,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub
-    .fa-tag {
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub .fa-location-dot,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub .fa-envelope,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub .fa-tag,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub .fa-location-dot,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub .fa-envelope,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub .fa-tag,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub .fa-location-dot,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub .fa-envelope,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub .fa-tag {
     font-size: 12rem;
     color: #78c091;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub
-    span,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub
-    span,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub
-    span {
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub span,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub span,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub span {
     color: #001524;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub
-    span,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub
-    span,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub
-    span {
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub span,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub span,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub span {
     padding-top: 10px;
     font-size: 20px;
     text-transform: capitalize;
@@ -896,23 +463,11 @@
     padding-bottom: 30px;
     color: white;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .form-sub
-    .join-sub
-    .join-text {
+  body main .contact-section .newsletter-container-sub .form-sub .join-sub .join-text {
     font-size: 20px;
     padding-bottom: 20px;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .form-sub
-    .join-sub
-    .fa-arrow-down {
+  body main .contact-section .newsletter-container-sub .form-sub .join-sub .fa-arrow-down {
     font-size: 30px;
   }
   body main .contact-section .newsletter-container-sub .form-sub .form-text {
@@ -923,13 +478,7 @@
     letter-spacing: 2px;
     color: white;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .form-sub
-    .form-email-sub
-    input {
+  body main .contact-section .newsletter-container-sub .form-sub .form-email-sub input {
     width: 50%;
     height: 35px;
     padding: 0 5px;
@@ -1037,13 +586,7 @@
   body footer .footer-container .hours-operating .terms-policy-sub li a,
   body footer .footer-container .hours-operating .terms-policy-sub li a:active,
   body footer .footer-container .hours-operating .hours-operating-sub li a,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    li
-    a:active {
+  body footer .footer-container .hours-operating .hours-operating-sub li a:active {
     color: white;
     text-transform: capitalize;
     font-size: 18px;
@@ -1064,13 +607,7 @@
   body footer .footer-container .hours-operating .connect-sub li a:hover,
   body footer .footer-container .hours-operating .connect-about li a:hover,
   body footer .footer-container .hours-operating .terms-policy-sub li a:hover,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    li
-    a:hover {
+  body footer .footer-container .hours-operating .hours-operating-sub li a:hover {
     color: #78c091;
   }
   body footer .footer-container .connect .connect-sub .social-media,
@@ -1084,275 +621,52 @@
   body footer .footer-container .terms-policy .connect-sub .social-media,
   body footer .footer-container .terms-policy .connect-about .social-media,
   body footer .footer-container .terms-policy .terms-policy-sub .social-media,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .hours-operating-sub
-    .social-media,
+  body footer .footer-container .terms-policy .hours-operating-sub .social-media,
   body footer .footer-container .hours-operating .connect-sub .social-media,
   body footer .footer-container .hours-operating .connect-about .social-media,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .terms-policy-sub
-    .social-media,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    .social-media {
+  body footer .footer-container .hours-operating .terms-policy-sub .social-media,
+  body footer .footer-container .hours-operating .hours-operating-sub .social-media {
     text-align: left;
     font-size: 18px;
     padding: 10px;
   }
-  body
-    footer
-    .footer-container
-    .connect
-    .connect-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .connect
-    .connect-about
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .connect
-    .terms-policy-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .connect
-    .hours-operating-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .about
-    .connect-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .about
-    .connect-about
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .about
-    .terms-policy-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .about
-    .hours-operating-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .connect-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .connect-about
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .terms-policy-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .hours-operating-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .connect-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .connect-about
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .terms-policy-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    .social-media
-    .social-media-sub {
+  body footer .footer-container .connect .connect-sub .social-media .social-media-sub,
+  body footer .footer-container .connect .connect-about .social-media .social-media-sub,
+  body footer .footer-container .connect .terms-policy-sub .social-media .social-media-sub,
+  body footer .footer-container .connect .hours-operating-sub .social-media .social-media-sub,
+  body footer .footer-container .about .connect-sub .social-media .social-media-sub,
+  body footer .footer-container .about .connect-about .social-media .social-media-sub,
+  body footer .footer-container .about .terms-policy-sub .social-media .social-media-sub,
+  body footer .footer-container .about .hours-operating-sub .social-media .social-media-sub,
+  body footer .footer-container .terms-policy .connect-sub .social-media .social-media-sub,
+  body footer .footer-container .terms-policy .connect-about .social-media .social-media-sub,
+  body footer .footer-container .terms-policy .terms-policy-sub .social-media .social-media-sub,
+  body footer .footer-container .terms-policy .hours-operating-sub .social-media .social-media-sub,
+  body footer .footer-container .hours-operating .connect-sub .social-media .social-media-sub,
+  body footer .footer-container .hours-operating .connect-about .social-media .social-media-sub,
+  body footer .footer-container .hours-operating .terms-policy-sub .social-media .social-media-sub,
+  body footer .footer-container .hours-operating .hours-operating-sub .social-media .social-media-sub {
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  body
-    footer
-    .footer-container
-    .connect
-    .connect-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .connect
-    .connect-about
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .connect
-    .terms-policy-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .connect
-    .hours-operating-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .about
-    .connect-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .about
-    .connect-about
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .about
-    .terms-policy-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .about
-    .hours-operating-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .connect-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .connect-about
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .terms-policy-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .hours-operating-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .connect-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .connect-about
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .terms-policy-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    .social-media
-    .social-media-sub
-    p {
+  body footer .footer-container .connect .connect-sub .social-media .social-media-sub p,
+  body footer .footer-container .connect .connect-about .social-media .social-media-sub p,
+  body footer .footer-container .connect .terms-policy-sub .social-media .social-media-sub p,
+  body footer .footer-container .connect .hours-operating-sub .social-media .social-media-sub p,
+  body footer .footer-container .about .connect-sub .social-media .social-media-sub p,
+  body footer .footer-container .about .connect-about .social-media .social-media-sub p,
+  body footer .footer-container .about .terms-policy-sub .social-media .social-media-sub p,
+  body footer .footer-container .about .hours-operating-sub .social-media .social-media-sub p,
+  body footer .footer-container .terms-policy .connect-sub .social-media .social-media-sub p,
+  body footer .footer-container .terms-policy .connect-about .social-media .social-media-sub p,
+  body footer .footer-container .terms-policy .terms-policy-sub .social-media .social-media-sub p,
+  body footer .footer-container .terms-policy .hours-operating-sub .social-media .social-media-sub p,
+  body footer .footer-container .hours-operating .connect-sub .social-media .social-media-sub p,
+  body footer .footer-container .hours-operating .connect-about .social-media .social-media-sub p,
+  body footer .footer-container .hours-operating .terms-policy-sub .social-media .social-media-sub p,
+  body footer .footer-container .hours-operating .hours-operating-sub .social-media .social-media-sub p {
     padding: 20px;
   }
   body footer .footer-container .connect .connect-sub .social-media a,
@@ -1366,29 +680,11 @@
   body footer .footer-container .terms-policy .connect-sub .social-media a,
   body footer .footer-container .terms-policy .connect-about .social-media a,
   body footer .footer-container .terms-policy .terms-policy-sub .social-media a,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .hours-operating-sub
-    .social-media
-    a,
+  body footer .footer-container .terms-policy .hours-operating-sub .social-media a,
   body footer .footer-container .hours-operating .connect-sub .social-media a,
   body footer .footer-container .hours-operating .connect-about .social-media a,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .terms-policy-sub
-    .social-media
-    a,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    .social-media
-    a {
+  body footer .footer-container .hours-operating .terms-policy-sub .social-media a,
+  body footer .footer-container .hours-operating .hours-operating-sub .social-media a {
     display: flex;
     text-decoration: none;
     margin: 5px;
@@ -1407,47 +703,12 @@
   body footer .footer-container .about .hours-operating-sub .social-media a i,
   body footer .footer-container .terms-policy .connect-sub .social-media a i,
   body footer .footer-container .terms-policy .connect-about .social-media a i,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .terms-policy-sub
-    .social-media
-    a
-    i,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .hours-operating-sub
-    .social-media
-    a
-    i,
+  body footer .footer-container .terms-policy .terms-policy-sub .social-media a i,
+  body footer .footer-container .terms-policy .hours-operating-sub .social-media a i,
   body footer .footer-container .hours-operating .connect-sub .social-media a i,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .connect-about
-    .social-media
-    a
-    i,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .terms-policy-sub
-    .social-media
-    a
-    i,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    .social-media
-    a
-    i {
+  body footer .footer-container .hours-operating .connect-about .social-media a i,
+  body footer .footer-container .hours-operating .terms-policy-sub .social-media a i,
+  body footer .footer-container .hours-operating .hours-operating-sub .social-media a i {
     font-size: 24px;
   }
   body footer .copy-right {
@@ -1510,19 +771,10 @@
     height: 40px;
     padding: 0 4px;
   }
-  body
-    header
-    .navigation-container
-    .mobile-gamburger-sub
-    .hamburger-navigation-link-sub {
+  body header .navigation-container .mobile-gamburger-sub .hamburger-navigation-link-sub {
     position: relative;
   }
-  body
-    header
-    .navigation-container
-    .mobile-gamburger-sub
-    .hamburger-navigation-link-sub
-    .one {
+  body header .navigation-container .mobile-gamburger-sub .hamburger-navigation-link-sub .one {
     background-color: white;
     width: 20px;
     height: 2px;
@@ -1530,12 +782,7 @@
     top: 8px;
     right: 5px;
   }
-  body
-    header
-    .navigation-container
-    .mobile-gamburger-sub
-    .hamburger-navigation-link-sub
-    .two {
+  body header .navigation-container .mobile-gamburger-sub .hamburger-navigation-link-sub .two {
     background-color: white;
     width: 20px;
     height: 2px;
@@ -1543,12 +790,7 @@
     top: 18px;
     right: 5px;
   }
-  body
-    header
-    .navigation-container
-    .mobile-gamburger-sub
-    .hamburger-navigation-link-sub
-    .three {
+  body header .navigation-container .mobile-gamburger-sub .hamburger-navigation-link-sub .three {
     background-color: white;
     width: 20px;
     height: 2px;
@@ -1605,12 +847,7 @@
     background-color: #001524;
     padding-top: 5px;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-way-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-way-sub {
     font-size: 10px;
     padding-left: 10px;
     text-align: left;
@@ -1618,111 +855,38 @@
   body main .deals-section .explore-deals-sub .deals-container-sub .text-sub {
     font-size: 18px;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-destination-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-price-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-destination-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-price-sub {
     font-size: 12px;
     text-align: left;
     padding-bottom: 10px;
     padding-top: 5px;
     padding-left: 5px;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-price-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-price-sub {
     font-size: 28px;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     justify-items: center;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-date-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-destination-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-date-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-destination-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-date-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-destination-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-date-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-destination-sub {
     font-size: 12px;
     text-align: left;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-booking-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-price-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-booking-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-price-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-booking-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-price-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-booking-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-price-sub {
     font-size: 14px;
     text-align: right;
     padding-right: 10px;
@@ -1731,54 +895,18 @@
     text-decoration: underline;
     cursor: pointer;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-booking-sub:hover,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-booking-sub:hover {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-booking-sub:hover,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-booking-sub:hover {
     color: #db5461;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-price-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-price-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-price-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-price-sub {
     text-decoration: none;
     font-size: 20px;
     color: #78c091;
   }
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-footer-sub
-    .deals-destination-sub,
-  body
-    main
-    .deals-section
-    .explore-deals-sub
-    .deals-container-sub
-    .deals-container-header-sub
-    .deals-destination-sub {
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-footer-sub .deals-destination-sub,
+  body main .deals-section .explore-deals-sub .deals-container-sub .deals-container-header-sub .deals-destination-sub {
     font-size: 12px;
     color: #db5461;
   }
@@ -1871,137 +999,32 @@
     padding: 10px 0;
     gap: 20px;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub {
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub {
     display: inherit;
     flex-direction: column;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub
-    .fa-location-dot,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub
-    .fa-envelope,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub
-    .fa-tag,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub
-    .fa-location-dot,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub
-    .fa-envelope,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub
-    .fa-tag,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub
-    .fa-location-dot,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub
-    .fa-envelope,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub
-    .fa-tag {
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub .fa-location-dot,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub .fa-envelope,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub .fa-tag,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub .fa-location-dot,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub .fa-envelope,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub .fa-tag,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub .fa-location-dot,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub .fa-envelope,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub .fa-tag {
     font-size: 3rem;
     color: #78c091;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub
-    span,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub
-    span,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub
-    span {
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub span,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub span,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub span {
     color: #001524;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .location-sub
-    span,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .mail-sub
-    span,
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .deals-contact-sub
-    .discount-sub
-    span {
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .location-sub span,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .mail-sub span,
+  body main .contact-section .newsletter-container-sub .deals-contact-sub .discount-sub span {
     padding-top: 10px;
     font-size: 20px;
     text-transform: capitalize;
@@ -2036,23 +1059,11 @@
     padding-bottom: 30px;
     color: white;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .form-sub
-    .join-sub
-    .join-text {
+  body main .contact-section .newsletter-container-sub .form-sub .join-sub .join-text {
     font-size: 20px;
     padding-bottom: 20px;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .form-sub
-    .join-sub
-    .fa-arrow-down {
+  body main .contact-section .newsletter-container-sub .form-sub .join-sub .fa-arrow-down {
     font-size: 30px;
   }
   body main .contact-section .newsletter-container-sub .form-sub .form-text {
@@ -2063,13 +1074,7 @@
     letter-spacing: 2px;
     color: white;
   }
-  body
-    main
-    .contact-section
-    .newsletter-container-sub
-    .form-sub
-    .form-email-sub
-    input {
+  body main .contact-section .newsletter-container-sub .form-sub .form-email-sub input {
     width: 50%;
     height: 35px;
     padding: 0 5px;
@@ -2178,13 +1183,7 @@
   body footer .footer-container .hours-operating .terms-policy-sub li a,
   body footer .footer-container .hours-operating .terms-policy-sub li a:active,
   body footer .footer-container .hours-operating .hours-operating-sub li a,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    li
-    a:active {
+  body footer .footer-container .hours-operating .hours-operating-sub li a:active {
     color: white;
     text-transform: capitalize;
     font-size: 18px;
@@ -2201,276 +1200,53 @@
   body footer .footer-container .terms-policy .connect-sub .social-media,
   body footer .footer-container .terms-policy .connect-about .social-media,
   body footer .footer-container .terms-policy .terms-policy-sub .social-media,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .hours-operating-sub
-    .social-media,
+  body footer .footer-container .terms-policy .hours-operating-sub .social-media,
   body footer .footer-container .hours-operating .connect-sub .social-media,
   body footer .footer-container .hours-operating .connect-about .social-media,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .terms-policy-sub
-    .social-media,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    .social-media {
+  body footer .footer-container .hours-operating .terms-policy-sub .social-media,
+  body footer .footer-container .hours-operating .hours-operating-sub .social-media {
     text-align: center;
     font-size: 18px;
     padding-top: 30px;
   }
-  body
-    footer
-    .footer-container
-    .connect
-    .connect-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .connect
-    .connect-about
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .connect
-    .terms-policy-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .connect
-    .hours-operating-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .about
-    .connect-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .about
-    .connect-about
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .about
-    .terms-policy-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .about
-    .hours-operating-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .connect-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .connect-about
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .terms-policy-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .hours-operating-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .connect-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .connect-about
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .terms-policy-sub
-    .social-media
-    .social-media-sub,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    .social-media
-    .social-media-sub {
+  body footer .footer-container .connect .connect-sub .social-media .social-media-sub,
+  body footer .footer-container .connect .connect-about .social-media .social-media-sub,
+  body footer .footer-container .connect .terms-policy-sub .social-media .social-media-sub,
+  body footer .footer-container .connect .hours-operating-sub .social-media .social-media-sub,
+  body footer .footer-container .about .connect-sub .social-media .social-media-sub,
+  body footer .footer-container .about .connect-about .social-media .social-media-sub,
+  body footer .footer-container .about .terms-policy-sub .social-media .social-media-sub,
+  body footer .footer-container .about .hours-operating-sub .social-media .social-media-sub,
+  body footer .footer-container .terms-policy .connect-sub .social-media .social-media-sub,
+  body footer .footer-container .terms-policy .connect-about .social-media .social-media-sub,
+  body footer .footer-container .terms-policy .terms-policy-sub .social-media .social-media-sub,
+  body footer .footer-container .terms-policy .hours-operating-sub .social-media .social-media-sub,
+  body footer .footer-container .hours-operating .connect-sub .social-media .social-media-sub,
+  body footer .footer-container .hours-operating .connect-about .social-media .social-media-sub,
+  body footer .footer-container .hours-operating .terms-policy-sub .social-media .social-media-sub,
+  body footer .footer-container .hours-operating .hours-operating-sub .social-media .social-media-sub {
     position: relative;
     display: flex;
     justify-content: center;
     justify-items: center;
     flex-direction: column;
   }
-  body
-    footer
-    .footer-container
-    .connect
-    .connect-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .connect
-    .connect-about
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .connect
-    .terms-policy-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .connect
-    .hours-operating-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .about
-    .connect-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .about
-    .connect-about
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .about
-    .terms-policy-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .about
-    .hours-operating-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .connect-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .connect-about
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .terms-policy-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .hours-operating-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .connect-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .connect-about
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .terms-policy-sub
-    .social-media
-    .social-media-sub
-    p,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    .social-media
-    .social-media-sub
-    p {
+  body footer .footer-container .connect .connect-sub .social-media .social-media-sub p,
+  body footer .footer-container .connect .connect-about .social-media .social-media-sub p,
+  body footer .footer-container .connect .terms-policy-sub .social-media .social-media-sub p,
+  body footer .footer-container .connect .hours-operating-sub .social-media .social-media-sub p,
+  body footer .footer-container .about .connect-sub .social-media .social-media-sub p,
+  body footer .footer-container .about .connect-about .social-media .social-media-sub p,
+  body footer .footer-container .about .terms-policy-sub .social-media .social-media-sub p,
+  body footer .footer-container .about .hours-operating-sub .social-media .social-media-sub p,
+  body footer .footer-container .terms-policy .connect-sub .social-media .social-media-sub p,
+  body footer .footer-container .terms-policy .connect-about .social-media .social-media-sub p,
+  body footer .footer-container .terms-policy .terms-policy-sub .social-media .social-media-sub p,
+  body footer .footer-container .terms-policy .hours-operating-sub .social-media .social-media-sub p,
+  body footer .footer-container .hours-operating .connect-sub .social-media .social-media-sub p,
+  body footer .footer-container .hours-operating .connect-about .social-media .social-media-sub p,
+  body footer .footer-container .hours-operating .terms-policy-sub .social-media .social-media-sub p,
+  body footer .footer-container .hours-operating .hours-operating-sub .social-media .social-media-sub p {
     padding: 20px 0;
   }
   body footer .footer-container .connect .connect-sub .social-media a,
@@ -2484,29 +1260,11 @@
   body footer .footer-container .terms-policy .connect-sub .social-media a,
   body footer .footer-container .terms-policy .connect-about .social-media a,
   body footer .footer-container .terms-policy .terms-policy-sub .social-media a,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .hours-operating-sub
-    .social-media
-    a,
+  body footer .footer-container .terms-policy .hours-operating-sub .social-media a,
   body footer .footer-container .hours-operating .connect-sub .social-media a,
   body footer .footer-container .hours-operating .connect-about .social-media a,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .terms-policy-sub
-    .social-media
-    a,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    .social-media
-    a {
+  body footer .footer-container .hours-operating .terms-policy-sub .social-media a,
+  body footer .footer-container .hours-operating .hours-operating-sub .social-media a {
     width: 70px;
     margin: 10px auto;
     color: white;
@@ -2524,47 +1282,12 @@
   body footer .footer-container .about .hours-operating-sub .social-media a i,
   body footer .footer-container .terms-policy .connect-sub .social-media a i,
   body footer .footer-container .terms-policy .connect-about .social-media a i,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .terms-policy-sub
-    .social-media
-    a
-    i,
-  body
-    footer
-    .footer-container
-    .terms-policy
-    .hours-operating-sub
-    .social-media
-    a
-    i,
+  body footer .footer-container .terms-policy .terms-policy-sub .social-media a i,
+  body footer .footer-container .terms-policy .hours-operating-sub .social-media a i,
   body footer .footer-container .hours-operating .connect-sub .social-media a i,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .connect-about
-    .social-media
-    a
-    i,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .terms-policy-sub
-    .social-media
-    a
-    i,
-  body
-    footer
-    .footer-container
-    .hours-operating
-    .hours-operating-sub
-    .social-media
-    a
-    i {
+  body footer .footer-container .hours-operating .connect-about .social-media a i,
+  body footer .footer-container .hours-operating .terms-policy-sub .social-media a i,
+  body footer .footer-container .hours-operating .hours-operating-sub .social-media a i {
     font-size: 20px;
   }
   body footer .copy-right {
@@ -2578,4 +1301,4 @@
   }
 }
 
-/* #sourceMappingURL=main.css.map 
+/*# sourceMappingURL=main.css.map */
