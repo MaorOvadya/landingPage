@@ -533,6 +533,7 @@
   body footer .footer-container .hours-operating .hours-operating-sub {
     display: inherit;
     flex-direction: inherit;
+    text-transform: capitalize;
   }
   body footer .footer-container .connect .connect-sub li,
   body footer .footer-container .connect .connect-about li,
@@ -1241,6 +1242,7 @@
   body footer .footer-container .hours-operating .connect-about,
   body footer .footer-container .hours-operating .terms-policy-sub,
   body footer .footer-container .hours-operating .hours-operating-sub {
+    text-transform: capitalize;
     display: inherit;
     flex-direction: inherit;
   }
